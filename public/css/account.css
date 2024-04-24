@@ -1,0 +1,103 @@
+/* TWO SIDE LINE */
+.two-sides-left {
+    border-bottom: solid 10px #CC0062;
+    border-left: solid 10px #CC0062;
+    border-bottom-left-radius: 15px;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+
+.two-sides legend {
+    line-height: 1;
+    text-align: left;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+legend {
+    padding: 0;
+    display: block;
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+
+/* BUTTON */
+
+.button-28 {
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 30px;
+    min-width: 0;
+    outline: none;
+    /* padding: 16px 24px; */
+    text-align: normal;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+    height: 10px;
+    will-change: transform;
+  }
+  
+  .button-28:disabled {
+    pointer-events: none;
+  }
+  
+  .button-28:hover {
+    color: #000000;
+    background-color: #ffffff;
+    box-shadow: rgba(255, 255, 255, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .button-28:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+
+  /* BOX-CONTENT */
+  .content-box {
+    border: 1px solid #ddd; /* Border color */
+    padding: 20px; /* Padding inside the box */
+    margin: 20px; /* Margin outside the box */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px white; /* Box shadow for a subtle lift */
+  }
+
+  /* LINK */
+.clickwhite {
+    color: rgb(255, 255, 255);
+
+}
+.clickwhite:link {
+    text-decoration: none;
+}
+  
+.clickwhite:visited {
+    text-decoration: none;
+}
+  
+.clickwhite:hover {
+    text-decoration: none;
+    color: #CC0062;
+    transition: 0.5s;
+}

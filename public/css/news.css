@@ -1,0 +1,40 @@
+/* FONT
+Main font: Krona One
+Sub font: Inria Sans
+
+COLOR
+Bg color: Black
+Font color: white
+highlight color:#CC0062 */
+
+/* TWO SIDE RIGHT LINE */
+.two-sides-right {
+    border-top: solid 10px #CC0062;
+    border-right: solid 10px #CC0062;
+    border-top-right-radius: 15px;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+
+.two-sides legend {
+    line-height: 1;
+    text-align: left;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+legend {
+    padding: 0;
+    display: block;
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+
+
+

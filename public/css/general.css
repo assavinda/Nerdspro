@@ -1,0 +1,208 @@
+/* FONT
+Main font: Krona One
+Sub font: Inria Sans
+
+COLOR
+Bg color: Black
+Font color: white
+highlight color: #CC0062  */
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400&family=Krona+One&display=swap');
+
+/* body {
+    background-image: url(../img/general/outerspace-6.gif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+body {
+    overscroll-behavior: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+    font-family: 'Krona One', sans-serif;
+    color: white;
+}
+
+h2 {
+    font-family: 'Krona One', sans-serif;
+    color: white;
+}
+
+h4 {
+  font-family: 'Krona One', sans-serif;
+    color: white;
+}
+
+h6 {
+    font-family: 'Krona One', sans-serif;
+    color: white;
+}
+
+p {
+    font-family: 'Inria Sans', sans-serif;
+}
+
+.bg-color {
+    background-color: black;
+
+}
+
+/* NAVBAR */ 
+.navbar {
+    font-family: 'Krona One';
+    transition: all 0.5s;
+}
+
+.navbar-scrolled {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.145);
+}
+
+li {
+list-style-type: none;
+}
+
+.dropdown-menu[data-bs-popper] {
+    right: 0 !important;
+    left: auto !important;
+}
+
+#nav-profile {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.disappear {
+    display: none;
+}
+
+/* .dropdown-menu-right {
+    right: 0;
+    left: auto;
+}
+
+.navbar .dropdown-menu {
+    right: 0; 
+    left: auto;
+  } */
+
+/* .show {
+    background-color: black;
+} */
+
+
+
+
+/* LINK */
+.click {
+    color: black;
+
+}
+.click:link {
+    text-decoration: none;
+}
+  
+.click:visited {
+    text-decoration: none;
+}
+  
+.click:hover {
+    text-decoration: none;
+    color: #CC0062;
+    transition: 0.5s;
+}
+
+/* COLOR BAR */
+.line-bar {
+    display: inline-block;
+    width: 5px;
+    height: 28px;
+    background-color: #CC0062;
+    margin-right: 13px
+}
+
+/* CARD */
+.card-title {
+    font-family: 'Krona One';
+}
+
+.card-text {
+    font-family: 'Inria Sans';
+}
+
+/* FADE */
+.fade-text {
+    opacity: 0; /* Start with opacity set to 0 (completely transparent) */
+    transition: opacity 1s ease-in; /* Apply a smooth transition */
+}
+
+/* TRUNCATE */
+:root {
+    --lh: 1.4rem;
+  }
+  
+  .truncate-overflow {
+    --max-lines: 3;
+    position: relative;
+    max-height: calc(var(--lh) * var(--max-lines));
+    overflow: hidden ;
+    padding-right: 1rem;
+  }
+  .truncate-overflow::before {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .truncate-overflow::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 1rem;
+    height: 1rem;
+    background: white;
+  }
+
+  .spinner-div {
+    position:sticky ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+  }
+  
+  #spinner-container {
+    width: 100px;
+    height: 100px;
+  }
+  
+  @keyframes animation {
+    0% {
+      stroke-dasharray: 1 98;
+      stroke-dashoffset: -105;
+    }
+    50% {
+      stroke-dasharray: 80 10;
+      stroke-dashoffset: -160;
+    }
+    100% {
+      stroke-dasharray: 1 98;
+      stroke-dashoffset: -300;
+    }
+  }
+  
+  #spinner {
+    transform-origin: center;
+    animation-name: animation;
+    animation-duration: 1.2s;
+    animation-timing-function: cubic-bezier;
+    animation-iteration-count: infinite;
+  }
+  
